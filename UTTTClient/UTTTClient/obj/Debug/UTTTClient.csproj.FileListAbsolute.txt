@@ -1,0 +1,13 @@
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\bin\Debug\UTTTClient.exe.config
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.csprojResolveAssemblyReference.cache
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.Properties.Resources.resources
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.csproj.GenerateResource.Cache
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\bin\Debug\UTTTClient.exe
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\bin\Debug\UTTTClient.pdb
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.exe
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.pdb
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.Auth.resources
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.Menu.resources
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.Game.resources
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.Test.resources
+D:\Soft\Visual Studio\Projects\UTTTClient\UTTTClient\obj\Debug\UTTTClient.Match.resources

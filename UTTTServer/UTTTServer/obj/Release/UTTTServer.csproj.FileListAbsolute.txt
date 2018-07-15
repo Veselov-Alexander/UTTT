@@ -1,0 +1,13 @@
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Release\UTTTServer.exe.config
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Release\UTTTServer.exe
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Release\UTTTServer.pdb
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Release\Google.Protobuf.dll
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Release\MySql.Data.dll
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Release\Google.Protobuf.xml
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Release\MySql.Data.xml
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Release\UTTTServer.csprojResolveAssemblyReference.cache
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Release\UTTTServer.ServerForm.resources
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Release\UTTTServer.Properties.Resources.resources
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Release\UTTTServer.csproj.GenerateResource.Cache
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Release\UTTTServer.exe
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Release\UTTTServer.pdb

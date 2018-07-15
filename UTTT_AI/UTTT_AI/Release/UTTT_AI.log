@@ -1,0 +1,14 @@
+﻿  UTTT_AI.cpp
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\Include.h(20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\Include.h(20): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\Include.h(21): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\Include.h(21): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
+UTTT_AI.cpp(627): warning C4018: <: несоответствие типов со знаком и без знака
+     Создается библиотека D:\Soft\Visual Studio\Projects\UTTT_AI\Release\UTTT_AI.lib и объект D:\Soft\Visual Studio\Projects\UTTT_AI\Release\UTTT_AI.exp
+  Создание кода
+  5 of 912 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  UTTT_AI.vcxproj -> D:\Soft\Visual Studio\Projects\UTTT_AI\Release\UTTT_AI.dll
+  UTTT_AI.vcxproj -> D:\Soft\Visual Studio\Projects\UTTT_AI\Release\UTTT_AI.pdb (Full PDB)

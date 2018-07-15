@@ -1,0 +1,9 @@
+﻿  UTTT_AI.cpp
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\include.h(20): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\include.h(20): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\include.h(21): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\include.h(21): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
+d:\soft\visual studio\projects\uttt_ai\uttt_ai\uttt_ai.cpp(627): warning C4018: <: несоответствие типов со знаком и без знака
+     ╤ючфрхЄё  сшсышюЄхър D:\Soft\Visual Studio\Projects\UTTT_AI\Debug\UTTT_AI.lib ш юс·хъЄ D:\Soft\Visual Studio\Projects\UTTT_AI\Debug\UTTT_AI.exp
+  UTTT_AI.vcxproj -> D:\Soft\Visual Studio\Projects\UTTT_AI\Debug\UTTT_AI.dll
+  UTTT_AI.vcxproj -> D:\Soft\Visual Studio\Projects\UTTT_AI\Debug\UTTT_AI.pdb (Full PDB)

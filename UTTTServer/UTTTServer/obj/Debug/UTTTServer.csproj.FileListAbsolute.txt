@@ -1,0 +1,13 @@
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Debug\UTTTServer.exe.config
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Debug\UTTTServer.exe
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Debug\UTTTServer.pdb
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Debug\UTTTServer.Properties.Resources.resources
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Debug\UTTTServer.csproj.GenerateResource.Cache
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Debug\UTTTServer.exe
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Debug\UTTTServer.pdb
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Debug\UTTTServer.ServerForm.resources
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Debug\Google.Protobuf.dll
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Debug\MySql.Data.dll
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Debug\Google.Protobuf.xml
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\bin\Debug\MySql.Data.xml
+D:\Soft\Visual Studio\Projects\UTTTServer\UTTTServer\obj\Debug\UTTTServer.csprojResolveAssemblyReference.cache
