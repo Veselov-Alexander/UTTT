@@ -100,7 +100,7 @@ namespace UTTTClient
 
         public void Resize()
         {
-            if (size != field.Size.Height)
+            if (size != field.Size.Height && field.Size.Height != 0)
             {
                 if (field.Size.Height < field.Size.Width)
                 {
