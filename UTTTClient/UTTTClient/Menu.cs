@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -272,6 +273,7 @@ namespace UTTTClient
         }
 
         private UTTT botGame;
+        private UTTT botGameCopy;
         private Player playerColor = Player.X;
         private Player botColor = Player.O;
         private bool botGameIsPlaying = false;
@@ -318,6 +320,8 @@ namespace UTTTClient
         {
             if (botGameIsPlaying)
             {
+                botGameCopy = botGame.Clone();
+
                 if (botGame.SetMark(new Point(e.X, e.Y), playerColor) == "ERROR")
                 {
                     return;
@@ -332,6 +336,7 @@ namespace UTTTClient
                     String gameState = botGame.gameStateToString();
                     String botMove = bot.NextMove(gameState);
                     Console.WriteLine(botMove);
+
                     botGame.SetMark(botMove);
 
                     CheckGameState();
@@ -384,6 +389,15 @@ namespace UTTTClient
                 analysis.Enabled = true;
             }
 
+            if (botGameCopy == null)
+            {
+                unmake.Enabled = false;
+            }
+            else
+            {
+                unmake.Enabled = true;
+            }
+
             botGame.Draw();
 
             if (botGame.GameIsEnded())
@@ -407,6 +421,12 @@ namespace UTTTClient
             }
         }
 
+        private void UnmakeLastMove()
+        {
+            botGame = botGameCopy.Clone();
+            botGameCopy = null;
+        }
+
         private void diff_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (analysis.Checked)
@@ -419,6 +439,12 @@ namespace UTTTClient
             {
                 botGame.DisableAnalysis();
             }
+        }
+
+        private void unmake_Click(object sender, EventArgs e)
+        {
+            UnmakeLastMove();
+            unmake.Enabled = false;
         }
     }
 }

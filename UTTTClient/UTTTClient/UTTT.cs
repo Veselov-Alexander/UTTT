@@ -138,8 +138,10 @@ namespace UTTTClient
             DrawAreas();
             CalculateAllowedMoves();
             DrawScores();
+            DrawLastMove();
             DrawBigField();
             DrawMarks();
+
 
             fieldGraphics.DrawImage(image, new Point(delta_position, 0));
         }
@@ -492,8 +494,6 @@ namespace UTTTClient
 
             if (areas[x1, y1])
             {
-
-
                 imageGraphics.DrawRectangle(pen,
                                         x1 * big_square_size + delta_size + x2 * small_square_size,
                                         y1 * big_square_size + delta_size + y2 * small_square_size,
@@ -656,7 +656,6 @@ namespace UTTTClient
             return result;
         }
 
-
         private void FillAreas(bool value)
         {
             for (int row = 0; row < 3; ++row)
@@ -685,6 +684,34 @@ namespace UTTTClient
 
             areas[x, y] = true;
         }
+
+        private void DrawLastMove()
+        {
+            imageGraphics.FillRectangle(Brushes.Gold,
+                        lastBig.X * big_square_size + delta_size + lastSmall.X * small_square_size,
+                        lastBig.Y * big_square_size + delta_size + lastSmall.Y * small_square_size,
+                        small_square_size,
+                        small_square_size);
+        }
+
+        public UTTT Clone()
+        {
+            UTTT game = new UTTT(field);
+
+            for (int row = 0; row < 3; ++row)
+            {
+                for (int column = 0; column < 3; ++column)
+                {
+                    game.board[row, column] = board[row, column].Clone();
+                }
+            }
+
+            game.lastBig = lastBig;
+            game.lastSmall = lastSmall;
+            game.areas = (bool[,])areas.Clone();
+
+            return game;
+        }
     }
 
     class SmallBoard
@@ -702,6 +729,16 @@ namespace UTTTClient
                 }
             }
         }
+
+        public SmallBoard Clone()
+        {
+            SmallBoard board = new SmallBoard();
+
+            board.field = (Player[,])field.Clone();
+
+            return board;
+        }
+
 
         public String getCell(int row, int column)
         {

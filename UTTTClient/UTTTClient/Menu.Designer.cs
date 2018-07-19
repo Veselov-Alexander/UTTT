@@ -74,6 +74,7 @@
             this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.update = new System.Windows.Forms.Timer(this.components);
             this.botTimer = new System.Windows.Forms.Timer(this.components);
+            this.unmake = new System.Windows.Forms.Button();
             this.tabs.SuspendLayout();
             this.rooms.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.matchTime)).BeginInit();
@@ -242,6 +243,7 @@
             // 
             // practice
             // 
+            this.practice.Controls.Add(this.unmake);
             this.practice.Controls.Add(this.botField);
             this.practice.Controls.Add(this.diff);
             this.practice.Controls.Add(this.analysis);
@@ -321,7 +323,7 @@
             // 
             // hardBot
             // 
-            this.hardBot.Location = new System.Drawing.Point(31, 215);
+            this.hardBot.Location = new System.Drawing.Point(31, 179);
             this.hardBot.Name = "hardBot";
             this.hardBot.Size = new System.Drawing.Size(203, 30);
             this.hardBot.TabIndex = 2;
@@ -331,7 +333,7 @@
             // 
             // normalBot
             // 
-            this.normalBot.Location = new System.Drawing.Point(31, 157);
+            this.normalBot.Location = new System.Drawing.Point(31, 139);
             this.normalBot.Name = "normalBot";
             this.normalBot.Size = new System.Drawing.Size(203, 30);
             this.normalBot.TabIndex = 1;
@@ -341,7 +343,7 @@
             // 
             // easyBot
             // 
-            this.easyBot.Location = new System.Drawing.Point(31, 103);
+            this.easyBot.Location = new System.Drawing.Point(31, 99);
             this.easyBot.Name = "easyBot";
             this.easyBot.Size = new System.Drawing.Size(203, 30);
             this.easyBot.TabIndex = 0;
@@ -517,6 +519,16 @@
             this.botTimer.Enabled = true;
             this.botTimer.Tick += new System.EventHandler(this.botTimer_Tick);
             // 
+            // unmake
+            // 
+            this.unmake.Location = new System.Drawing.Point(31, 243);
+            this.unmake.Name = "unmake";
+            this.unmake.Size = new System.Drawing.Size(203, 30);
+            this.unmake.TabIndex = 8;
+            this.unmake.Text = "Unmake last move";
+            this.unmake.UseVisualStyleBackColor = true;
+            this.unmake.Click += new System.EventHandler(this.unmake_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -590,6 +602,7 @@
         private System.Windows.Forms.CheckBox analysis;
         private System.Windows.Forms.ListBox diff;
         private System.Windows.Forms.PictureBox botField;
+        private System.Windows.Forms.Button unmake;
     }
 }
 
