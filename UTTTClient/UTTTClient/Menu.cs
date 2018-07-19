@@ -297,6 +297,7 @@ namespace UTTTClient
 
         private void botGameInit(BotLevel level)
         {
+            botGameCopy = null;
             botGameIsPlaying = true;
             if (!firstMove.Checked)
             {

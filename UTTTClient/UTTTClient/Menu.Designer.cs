@@ -45,10 +45,10 @@
             this.create = new System.Windows.Forms.Button();
             this.connect = new System.Windows.Forms.Button();
             this.practice = new System.Windows.Forms.TabPage();
+            this.unmake = new System.Windows.Forms.Button();
             this.botField = new System.Windows.Forms.PictureBox();
             this.diff = new System.Windows.Forms.ListBox();
             this.analysis = new System.Windows.Forms.CheckBox();
-            this.gameState = new System.Windows.Forms.Label();
             this.firstMove = new System.Windows.Forms.CheckBox();
             this.hardBot = new System.Windows.Forms.Button();
             this.normalBot = new System.Windows.Forms.Button();
@@ -74,7 +74,6 @@
             this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.update = new System.Windows.Forms.Timer(this.components);
             this.botTimer = new System.Windows.Forms.Timer(this.components);
-            this.unmake = new System.Windows.Forms.Button();
             this.tabs.SuspendLayout();
             this.rooms.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.matchTime)).BeginInit();
@@ -247,7 +246,6 @@
             this.practice.Controls.Add(this.botField);
             this.practice.Controls.Add(this.diff);
             this.practice.Controls.Add(this.analysis);
-            this.practice.Controls.Add(this.gameState);
             this.practice.Controls.Add(this.firstMove);
             this.practice.Controls.Add(this.hardBot);
             this.practice.Controls.Add(this.normalBot);
@@ -258,6 +256,18 @@
             this.practice.TabIndex = 4;
             this.practice.Text = "Practice";
             this.practice.UseVisualStyleBackColor = true;
+            // 
+            // unmake
+            // 
+            this.unmake.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.unmake.Enabled = false;
+            this.unmake.Location = new System.Drawing.Point(31, 196);
+            this.unmake.Name = "unmake";
+            this.unmake.Size = new System.Drawing.Size(203, 30);
+            this.unmake.TabIndex = 8;
+            this.unmake.Text = "Unmake last move";
+            this.unmake.UseVisualStyleBackColor = true;
+            this.unmake.Click += new System.EventHandler(this.unmake_Click);
             // 
             // botField
             // 
@@ -299,15 +309,6 @@
             this.analysis.UseVisualStyleBackColor = true;
             this.analysis.CheckedChanged += new System.EventHandler(this.analysis_CheckedChanged);
             // 
-            // gameState
-            // 
-            this.gameState.AutoSize = true;
-            this.gameState.Location = new System.Drawing.Point(28, 30);
-            this.gameState.Name = "gameState";
-            this.gameState.Size = new System.Drawing.Size(45, 17);
-            this.gameState.TabIndex = 5;
-            this.gameState.Text = "State:";
-            // 
             // firstMove
             // 
             this.firstMove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -323,7 +324,7 @@
             // 
             // hardBot
             // 
-            this.hardBot.Location = new System.Drawing.Point(31, 179);
+            this.hardBot.Location = new System.Drawing.Point(31, 121);
             this.hardBot.Name = "hardBot";
             this.hardBot.Size = new System.Drawing.Size(203, 30);
             this.hardBot.TabIndex = 2;
@@ -333,7 +334,7 @@
             // 
             // normalBot
             // 
-            this.normalBot.Location = new System.Drawing.Point(31, 139);
+            this.normalBot.Location = new System.Drawing.Point(31, 81);
             this.normalBot.Name = "normalBot";
             this.normalBot.Size = new System.Drawing.Size(203, 30);
             this.normalBot.TabIndex = 1;
@@ -343,7 +344,7 @@
             // 
             // easyBot
             // 
-            this.easyBot.Location = new System.Drawing.Point(31, 99);
+            this.easyBot.Location = new System.Drawing.Point(31, 41);
             this.easyBot.Name = "easyBot";
             this.easyBot.Size = new System.Drawing.Size(203, 30);
             this.easyBot.TabIndex = 0;
@@ -519,16 +520,6 @@
             this.botTimer.Enabled = true;
             this.botTimer.Tick += new System.EventHandler(this.botTimer_Tick);
             // 
-            // unmake
-            // 
-            this.unmake.Location = new System.Drawing.Point(31, 243);
-            this.unmake.Name = "unmake";
-            this.unmake.Size = new System.Drawing.Size(203, 30);
-            this.unmake.TabIndex = 8;
-            this.unmake.Text = "Unmake last move";
-            this.unmake.UseVisualStyleBackColor = true;
-            this.unmake.Click += new System.EventHandler(this.unmake_Click);
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -596,7 +587,6 @@
         private System.Windows.Forms.Button hardBot;
         private System.Windows.Forms.Button normalBot;
         private System.Windows.Forms.Button easyBot;
-        private System.Windows.Forms.Label gameState;
         private System.Windows.Forms.CheckBox firstMove;
         private System.Windows.Forms.Timer botTimer;
         private System.Windows.Forms.CheckBox analysis;
